@@ -1,0 +1,67 @@
+$primary: #3292a6;  // a cor primaria busca da config. Bootstrap.CSS - SAS - cofig for Koala.
+$primary-overlay: rgba(50, 146, 166, 0.8);
+
+body {
+  margin-top: 105px;
+}
+
+.navbar {
+  box-shadow: 2px 2px 5px $primary;  // Inclui uma sombra de 2 pixel, com a cor primaria padrão.
+  opacity: 0.9;
+  background: #fff;// defino plano de fundo branco para barra de navegação
+
+  .nav-item { // difino stylo SAS, para items do Nav Bar internos
+    font-size: 1.4rem; // REM - unidade Medidas multiplicador padrão 16px
+    padding-right: 1.4rem;
+  }
+}
+
+#showcase { //area de apresentação pagina
+  position: relative;
+  background: url('../img/mountains.jpg'); 
+  min-height: 600px;
+   
+  .primary-overlay { // para sobreposição do caso de exibição da imagem - utilizo config do SAS
+    background: $primary-overlay; //no plano de funto defino uma variavel $primary-overlay
+    position: absolute; // como o overlay, coloco na posição redefinida absoluta, onde elemento filho cubra o pai.
+    top: 0;  // o fundo tenho a posição absoluta, começando top =0 e left=0 termino deixando zero.
+    left: 0;
+    width: 100%; // Cubro toda posição 100% incluindo altura
+    height: 100%;
+  }
+}
+
+.info-header {
+  width: 50%;  
+  margin: auto;
+  border-bottom: 1px #ddd solid;//add borta solida de 1px
+}
+
+#authors {
+  img {
+    margin-top: -50px;// adicionou -50, para posicionar imagem acima do topo de margem caixa box- principal
+  }
+
+  .card:hover { // evento de efeito cor de fundo, para selecão de card
+    background: $primary;// cor primaria definida no SAS - SCSS
+    color: #fff;
+  }
+
+  .fab {
+    color: #fff;
+  }
+}
+
+@media (max-width: 768px) { //Aplico Flex Mobal - responsividade fonte text vitrine pag.
+  #showcase {
+    min-height: 500px; // quando pagina atingir este tamanhã
+
+    h1 {
+      font-size: 4rem;  // ajusto o tamanho do texto principal aplicando unidade medida calculada. 
+    }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem; //ajusto margem responsividade para bottom/input
+  }
+}
