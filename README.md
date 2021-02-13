@@ -17,7 +17,7 @@
 
  <!-- Link para teste-->
  <h5 align="center">
-    🎬 Clique Aqui: &nbsp; <a href="https://MizuxeBookTheme.vercel.app/">  Visualizar Demonstração </a> 
+    🎬 Clique Aqui: &nbsp; <a href="https://mizuxe-book-theme.vercel.app/">  Visualizar Demonstração </a> 
  </h5>
 
 #
@@ -42,11 +42,9 @@
  #####   A sessão de contatos e constituída por um formulário onde utilizo grupos de entrada contendo nos índices,ícones correspondentes o label de cada input text, ao logo na posição lateral um ícone de logo marca.
  #####   A estilização de cores padrões da paginas incluídas as sessões e eventos, utilizei um **pré-compilador** para a conversão para **CSSA - SAS**, que permitiu fazer coisas como usar variáveis onde é possível alinhar estilos, e mais importante é que é possível editar o **bootstrap**, basicamente editar o bootstrap do núcleo, ajustando cores fontes etc. Para isso, utilizei a ferramenta **Koala** **_http://koala-app.com/_**, que é um programa GUI, uma interface gráfica para compilar o **SAS**.
 
-<br>
 
 ###### **Curso :**  Bootstrap 4 and learning HTML5 semantics & CSS3- [Udemy](https://Udemy.com.br)
 ###### **Instrutor :** Brad Traversy
-
 <br>
 
 ## 💻 **Telas**
@@ -86,7 +84,7 @@ Para iniciar o Servidor da aplicação utilizando o **VsCode** use o comando: **
   $ git clone https://github.com/alxlima/MizuxeBookTheme.git
   
   # Entrar no diretório
-  $ cd c:/Mizuxe
+  $ cd c:/mizuxe
 
   # Instalar as dependências
   $ yarn install
