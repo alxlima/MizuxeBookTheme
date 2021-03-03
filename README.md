@@ -56,7 +56,7 @@
 &nbsp;Para telas menores, existe o botão de recolhimento que mostra os menus da barra de navegação, na sessão de Autores, contendo algumas imagens sobrepostas acima dos Card's, aplicados a **eventos .card:hover** ativações por seleção do mouse em movimento que criam a sobreposição de cores padrão da pagina. 
  
 &nbsp;&nbsp;&nbsp;&nbsp;A sessão de contatos e constituída por um formulário onde utilizo grupos de entrada contendo nos índices,ícones correspondentes o label de cada input text, ao logo na posição lateral um ícone de logo marca.
-&nbsp;&nbsp;A estilização de cores padrões da paginas incluídas as sessões e eventos, utilizei um **pré-compilador** para a conversão para **CSSA - SAS**, que permitiu fazer coisas como usar variáveis onde é possível alinhar estilos, e mais importante é que é possível editar o **bootstrap**, basicamente editar o bootstrap do núcleo, ajustando cores fontes etc. Para isso, utilizei a ferramenta **Koala** **_http://koala-app.com/_**, que é um programa GUI, uma interface gráfica para compilar o **SAS**.
+&nbsp;&nbsp;A estilização de cores padrões da paginas incluídas as sessões e eventos, utilizei um **pré-compilador** para a conversão para **CSSA - SAS**, que permitiu fazer coisas como usar variáveis onde é possível alinhar estilos, e mais importante é que é possível editar o **bootstrap**, basicamente editar o bootstrap do núcleo, ajustando cores fontes etc. Para isso, utilizei a ferramenta [Koala](http://koala-app.com/), que é um programa GUI, uma interface gráfica para compilar o **SASS**.
 
 <br>
 
