@@ -87,13 +87,14 @@ Para iniciar o Servidor da aplicação utilizando o **VsCode** use o comando: **
 
 ## 🚀 Tecnologias
 
-- **HTML** - Front-End;
-- **CSS3** - Front-End;
-- **CSSA-SAS** - Front-End;
-- **Java Script**
-- **Bootstrap 4** (Template Engine) - Front-End
-- **Koala** - [Dowload - Koala](http://koala-app.com/)
+- [HTML5](https://pt.wikipedia.org/wiki/HTML5) - Hyper Text Markup Language -linguagem de marcação de hipertexto.
+- [CSS3](https://pt.wikipedia.org/wiki/CSS3) - Cascading Style Sheets - estilização de código html.
+- [SCSS -SASS](https://pt.wikipedia.org/wikiSass_linguagem_de_folhas_de_estilos) - Syntactically Awesome Style Sheets” - estilização de código html compilada em css.
+- [Koala](http://koala-app.com/) - Aplicativo GUI para a compilação Less, Sass, Compass e CoffeeScript
+- [Java Script](https://www.javascript.com/) -  Linguagem de programação utilizada em páginas web. Com o JS.
+- [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/download/) - Framework de componentes de interface(front-end) web e mobile-first.
 
+- [VS Code](https://code.visualstudio.com/) - Editor de desenvolvimento de aplicações web.
 <br>
 
 
