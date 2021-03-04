@@ -5,31 +5,26 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-telas">Telas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <p align="center">
+  <a href="#-licença">Licença</a>
+</p>  
   
- <!---------- Badges ----------------->  
-
-  <!-- <img alt="Made by Alex Lima" src="https://img.shields.io/badge/made%20by-Alex Lima-%49AA26"/> -->
-
-   <img src="https://img.shields.io/static/v1?label=made by&message=Alex Lima&color=3292a6&labelColor=000000" alt="Alex Lima" />
-  <!-- 
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" /> -->
-
+<!---------- Badges ----------------->  
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=made by&message=Alex Lima&color=3292a6&labelColor=000000" alt="Alex Lima" />
+ 
   <img alt="Last commit" src="https://img.shields.io/static/v1?label=Last commit&message=Febr&color=3292a6&labelColor=000000">
 
-  <!-- <img alt="License" src="https://img.shields.io/badge/license-MIT-49AA26?style=flat-square"> -->
- 
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=3292a6&labelColor=000000">
 
   <img alt="repo size" src="https://img.shields.io/static/v1?label=repo size&message=14.08 MB&color=3292a6&labelColor=000000">
-
-  <!-- <img alt="repo size" src="https://img.shields.io/badge/repo size-27.6-6E40C9?style=flat-square">  -->
-  <!-- --(4953b8)--blueDark -->
-  <!-- --(49AA26)--Green -->
-  <!-- --(3292a6)--BlueMedium>
+  <!----(4953b8)--BluePurple -->
+  <!----(49AA26)--Green -->
+  <!----(008ed6)--Blue -->
+  <!----(3292a6)--BlueMedium-->
+</p>
+<br>
 
 <!---------- showcase  ----------------->  
-
 <p align="center">
   <img alt="LoopLAB" src="prints/MizuxeBookTheme.png" width="100%">
 </p>
@@ -44,16 +39,16 @@
 
 ## 🔖 Sobre
 
- &nbsp;&nbsp;&nbsp;&nbsp;Este projeto é modelo de aplicação onde desenvolvi uma **landing page**, basicamente o objetivo foi reproduzir um livro de auto ajuda descrito por alguns autores, a ideia foi criar um tema de pagina como o **Loop Lab**.
+&nbsp;&nbsp;&nbsp;&nbsp;Este projeto é modelo de aplicação onde desenvolvi uma **landing page**, basicamente o objetivo foi reproduzir um livro de auto ajuda descrito por alguns autores, a ideia foi criar um tema de pagina como o **Loop Lab**.
 
- &nbsp;&nbsp;&nbsp;&nbsp;No layout é possível ver a criação de barras de navegação em ancora, e no top temos uma área de vitrine com uma sobreposição de cor e texto com imagem ao fundo junto a um **overlay** de pôster de **marketing**, abaixo uma pequena seção de Newsletter com um pequeno formulário em forma de linha, tendo alguns box card's e forms com área contatos.
+&nbsp;&nbsp;&nbsp;&nbsp;No layout é possível ver a criação de barras de navegação em ancora, e no top temos uma área de vitrine com uma sobreposição de cor e texto com imagem ao fundo junto a um **overlay** de pôster de **marketing**, abaixo uma pequena seção de Newsletter com um pequeno formulário em forma de linha, tendo alguns box card's e forms com área contatos.
   
-  <br>
+<br>
 
-  ## 💻 Projeto
+## 💻 Projeto
   
 &nbsp;&nbsp;&nbsp;&nbsp;Todo o tema do projeto é responsivo constituindo de barras de navegação fixadas na parte superior incluindo recursos de eventos **Smooth Scrolling**,para uma rolagem suaves da pagina, aplicadas as funções de codificação em **Java Script**, e também recursos de acordeão usados na seção sobre.
-&nbsp;Para telas menores, existe o botão de recolhimento que mostra os menus da barra de navegação, na sessão de Autores, contendo algumas imagens sobrepostas acima dos Card's, aplicados a **eventos .card:hover** ativações por seleção do mouse em movimento que criam a sobreposição de cores padrão da pagina. 
+&nbsp;&nbsp;Para telas menores, existe o botão de recolhimento que mostra os menus da barra de navegação, na sessão de Autores, contendo algumas imagens sobrepostas acima dos Card's, aplicados a **eventos .card:hover** ativações por seleção do mouse em movimento que criam a sobreposição de cores padrão da pagina. 
  
 &nbsp;&nbsp;&nbsp;&nbsp;A sessão de contatos e constituída por um formulário onde utilizo grupos de entrada contendo nos índices,ícones correspondentes o label de cada input text, ao logo na posição lateral um ícone de logo marca.
 &nbsp;&nbsp;A estilização de cores padrões da paginas incluídas as sessões e eventos, utilizei um **pré-compilador** para a conversão para **CSSA - SAS**, que permitiu fazer coisas como usar variáveis onde é possível alinhar estilos, e mais importante é que é possível editar o **bootstrap**, basicamente editar o bootstrap do núcleo, ajustando cores fontes etc. Para isso, utilizei a ferramenta [Koala](http://koala-app.com/), que é um programa GUI, uma interface gráfica para compilar o **SASS**.
@@ -69,10 +64,9 @@
 ## 💻 **Telas**
 
 <div align="center">
-<img src="prints/00.gif" width="100%" height="auto">
-<img src="prints/01.gif" width="100%" height="auto">
-<img src="prints/02.gif" width="100%" height="auto">
-
+  <img src="prints/00.gif" width="100%" height="auto">
+  <img src="prints/01.gif" width="100%" height="auto">
+  <img src="prints/02.gif" width="100%" height="auto">
 </div>
 <br>
 <br>
@@ -81,7 +75,7 @@
 
 ## 📌 Instruções : 
 
-Para iniciar o Servidor da aplicação utilizando o **VsCode** use o comando: **_Open Whit Live Server_** então acesse pelo navegador **_http://127.0.0.1:5500/index.html_** 
+&nbsp;&nbsp;&nbsp;&nbsp;Para iniciar o Servidor da aplicação utilizando o **VsCode** use o comando: **_Open Whit Live Server_** então acesse pelo navegador **_http://127.0.0.1:5500/index.html_** 
 
 <br>
 
@@ -95,8 +89,17 @@ Para iniciar o Servidor da aplicação utilizando o **VsCode** use o comando: **
 - [Bootstrap 4](https://getbootstrap.com/docs/4.1/getting-started/download/) - Framework de componentes de interface(front-end) web e mobile-first.
 
 - [VS Code](https://code.visualstudio.com/) - Editor de desenvolvimento de aplicações web.
+
 <br>
 
+## 📝 Licença
+<a href="https://opensource.org/licenses/MIT">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-6E40C9?style=flat-square">
+</a>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
+
+ <br>
 
 ## 📁 Como Baixar o Projeto
 
